@@ -1,17 +1,55 @@
-## Running React on Repl.it
+# Loafer Portfolio Homepage
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+This is the Homepage for Nicolas Jones, Frontend Developer, A.K.A: "TheMightyLoafer". All finished projects and WIP's will be posted here.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Acknowledgements
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Scrimba.com](https://www.scrimba.com)
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+## Author
 
-### Typescript
+- [@TheMightyLoafer](https://www.github.com/TheMightyLoafer)
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at feedback.curry114@passfwd.com
+
+
+## 🚀 About Me
+I'm a Frontend Developer, and the rest of this is under construction
+
+
+# Hi, I'm Nick! 👋
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](#)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicolas-jones-0930b6177)
+
+
+## 🛠 Skills
+Javascript, HTML, CSS...
+
+
+## Lessons Learned
+
+What did you learn while building this project? What challenges did you face and how did you overcome them?
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
