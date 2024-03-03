@@ -7,9 +7,10 @@
 
 .contentWindow {
     flex: 1;
-    min-height: calc(60vh);
 }
 
 .pageFooter {
-    margin-top: auto;
+    text-align: center;
+    background-color: #232323;
+    width: 100%;
 }
