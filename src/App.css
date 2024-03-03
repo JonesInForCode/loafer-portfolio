@@ -1,2 +1,27 @@
-main {
+/* ==== Global Properties ===== */
+
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff7ed;
+}
+a {
+    text-decoration: none;
+}
+
+/* ======= Site Styling ===== */
+.site-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
 }
