@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 export default function Header() {
     return (
         <header>
-            <nav>
-                <Link to="/">Home</Link>
+            <nav className='navbar'>
+                <Link to="/" className='home-link'>Home</Link>
                 <ul>
                     <li>
-                        <Link to="/projects">Projects</Link>
+                        <Link to="/projects" className='proj-link'>Projects</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contact" className='contact-link'>Contact</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about" className='about-link'>About</Link>
                     </li>
                 </ul>
             </nav>
