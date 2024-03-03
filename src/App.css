@@ -16,10 +16,3 @@ a {
 nav ul {
     list-style-type: none;
 }
-
-/* ======= Site Styling ===== */
-.site-wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
