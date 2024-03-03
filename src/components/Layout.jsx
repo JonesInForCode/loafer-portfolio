@@ -5,12 +5,17 @@ import Header from './Header'
 import Footer from './Footer'
 
 export default function Layout() {
-  console.log(styles)
   return (
     <div className={styles.siteWrapper}>
       <Header />
-      <Outlet className={styles.contentWindow} />
-      <Footer className={styles.pageFooter}/>
+
+      <main className={styles.contentWindow}>
+        <Outlet />
+      </main>
+
+      <div className={styles.pageFooter}>
+        <Footer />
+      </div>
     </div>
   )
 }

@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Projects from './pages/Projects'
+import styles from './components/Layout.module.css'
 
 export default function App() {
   return (

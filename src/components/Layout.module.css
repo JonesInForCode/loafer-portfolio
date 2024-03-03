@@ -8,7 +8,6 @@
 .contentWindow {
     flex: 1;
     min-height: calc(60vh);
-    background-color: black;
 }
 
 .pageFooter {
