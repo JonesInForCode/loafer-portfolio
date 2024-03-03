@@ -5,9 +5,10 @@ export default function Header() {
     return (
         <header>
             <nav>
+                <Link to="/">Home</Link>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/projects">Projects</Link>
                     </li>
                     <li>
                         <Link to="/contact">Contact</Link>
