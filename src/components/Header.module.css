@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    background: #FFF7ED;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 0; 
+    box-shadow: 1px 1px 5px 2px #1a1919;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    height: 80px;
+}
+
+.homelink {
+    text-transform: uppercase;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: auto;
+    text-transform: uppercase;
+}
+
+.navbar ul li {
+    padding: 0 25px;
+}
