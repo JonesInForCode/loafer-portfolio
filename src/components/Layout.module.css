@@ -1,16 +1,18 @@
 .siteWrapper {
-    padding-top: 100px;
-    min-height: 100vh;
+    padding-top: 80px;
+    min-height: calc(100vh);
     display: flex;
     flex-direction: column;
 }
 
 .contentWindow {
     flex: 1;
+    background-color: #323635;
 }
 
 .pageFooter {
     text-align: center;
     background-color: #232323;
     width: 100%;
+    color: #fff;
 }
