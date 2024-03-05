@@ -1,5 +1,5 @@
-import React from 'react'
-import getData from '../../api'
+import React from 'react';
+import getData from '../../api';
 
 
 
@@ -10,16 +10,16 @@ export default function Projects() {
       if (data) {
         setProjects(data);  
       }
-    })
-  }, [])
-  console.log(projects)
+    });
+  }, []);
+  console.log(projects);
     return (
         <div>
-          {projects.map(project => (
-            <div key={project.id}>
-              <h2>{project.title}</h2>
-              <p>{project.description}</p>
-            </div>))}
+          {Object.keys(projects).map((projectId) => (
+            <div key={projectId}>
+              <p>{projects[projectId].url}</p>
+            </div>
+          ))}
         </div>
     )
 }
