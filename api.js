@@ -13,10 +13,11 @@ const getData = async () => {
                 projectData[doc.id] = { ...doc.data(), id: doc.id }
             });
 
-            console.log(projectData);
+            return projectData;
         } catch (error) {
             console.error("Error fetching data:", error);
+            return null;
         }
     };
 
-getData();
+    export default getData;
