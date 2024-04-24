@@ -1,35 +1,35 @@
 .navbar {
-    display: flex;
-    background: #f0dbc3;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
-    margin-bottom: 0; 
-    box-shadow: 1px 1px 5px 2px #1a1919;
-    position: fixed;
-    letter-spacing: 1px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    height: 80px;
+  display: flex;
+  background: #f0dbc3;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 0;
+  box-shadow: 1px 1px 5px 2px #1a1919;
+  position: fixed;
+  letter-spacing: 1px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 80px;
 }
 
 .homelink {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .navbar ul {
-    display: flex;
-    margin-left: auto;
-    text-transform: uppercase;
+  display: flex;
+  margin-left: auto;
+  text-transform: uppercase;
 }
 
 .navbar ul li {
-    padding: 0 25px;
+  padding: 0 25px;
 }
 
 .navbar a {
-    color: #232323;
-    font-weight: 800;
+  color: #232323;
+  font-weight: 800;
 }

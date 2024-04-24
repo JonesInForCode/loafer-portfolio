@@ -4,20 +4,25 @@
 
 /* About Page */
 .aboutPage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .aboutContent {
-    background-color: #232323;
-    color: #c5c2c2;
-    border-radius: 5px;
-    padding: 25px;
+  background-color: #232323;
+  color: #c5c2c2;
+  border-radius: 5px;
+  padding: 25px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #c5c2c2;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #c5c2c2;
 }
 
 /* Contact Page */

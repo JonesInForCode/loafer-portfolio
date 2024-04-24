@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 export default function Splash() {
-    return (
-        <React.Fragment>
-            {/*content for splash page goes here */}
-        </React.Fragment>
-    )
+  return (
+    <React.Fragment>{/*content for splash page goes here */}</React.Fragment>
+  );
 }
