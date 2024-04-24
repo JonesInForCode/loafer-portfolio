@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "./Pages.module.css"
 
 export default function Contact() {
   return (
-    <div className="contact-page">
-      <h1 className="contact-header">Contact me</h1>
+    <div className={styles.contactCard}>
+      <h1 className={styles.contactHeader}>Contact me</h1>
       <h2>This area is under construction</h2>
       <h3>Contact Informaion</h3>
       <section>

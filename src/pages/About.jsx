@@ -4,7 +4,7 @@ import styles from "./Pages.module.css";
 export default function About() {
   return (
     <div className={styles.aboutPage}>
-      <h1 className="about-header">About Me</h1>
+      <h1 className={styles.aboutHeader}>About Me</h1>
       <div className={styles.aboutContent}>
         <h2>Hi, I'm Nick Jones</h2>
         <h3>Frontend Software Developer</h3>

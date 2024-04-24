@@ -11,6 +11,13 @@ body {
 }
 a {
   text-decoration: none;
+  color: #bca8c5;
+  transition: transform 0.3 ease;
+}
+a:hover,
+a:focus {
+    transform: scale(1.2);
+    text-decoration: underline;
 }
 
 nav ul {

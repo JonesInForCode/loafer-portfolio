@@ -1,5 +1,3 @@
-/* Home Page */
-
 /* Splash Page */
 
 /* About Page */
@@ -26,3 +24,16 @@ h6 {
 }
 
 /* Contact Page */
+.contactCard {
+    background-color: #232323;
+    color: #c5c2c2;
+    border-radius: 5px;
+    padding: 25px;
+}
+/* Home Page */
+.homeCardMain {
+    background-color: #232323;
+    color: #c5c2c2;
+    border-radius: 5px;
+    padding: 25px;
+}
