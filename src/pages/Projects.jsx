@@ -1,6 +1,7 @@
 import React from "react";
 import getData from "../../api";
 import Modal from "../components/Modal";
+import styles from './Projects.module.css'
 
 export default function Projects() {
   const [projects, setProjects] = React.useState([]);
@@ -29,30 +30,12 @@ export default function Projects() {
         </Modal>
       </div>
       <div>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(2, 1fr)",
-            gridGap: "50px",
-            justifyItems: "center",
-            padding: "100px",
-          }}
-        >
+        <div className={styles.projectsContainer}>
           {Object.keys(projects).map((projectId) => (
             <div
-              key={projectId}
-              style={{
-                width: "300px",
-                backgroundColor: "#000",
-                color: "#fff",
-                borderRadius: "5px",
-                padding: "1.5em",
-                display: "flex",
-                flexDirection: "column",
-              }}
-            >
-              <img style={{ maxWidth: "100%" }} src={projects[projectId].img} />
-              <div style={{ flexGrow: "1" }}>
+              key={projectId} className={styles.projectCard}>
+              <img className={styles.projectImage} src={projects[projectId].img} />
+              <div className={styles.projectDescContainer}>
                 <p>{projects[projectId].desc}</p>
                 <p>
                   URL:<a href={projects[projectId].url}> Live Site</a>
