@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nick Jones",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.2.37",

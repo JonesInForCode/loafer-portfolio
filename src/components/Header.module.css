@@ -33,3 +33,34 @@
   color: #232323;
   font-weight: 800;
 }
+
+/* Media query for screens below 500px */
+@media only screen and (max-width: 499px) {
+  .navbar {
+    position: static;
+    flex-direction: column; /* Change to single column */
+    align-items: center; /* Center items vertically */
+    padding: 0; /* Remove padding for better fit */
+    margin: 0;
+  }
+
+  .navbar ul {
+    flex-direction: column; /* Change to single column */
+    margin: 0; /* Remove margin-left */
+    text-align: center; /* Center list items vertically */
+    list-style: none; /* Remove default list item margins */
+  }
+
+  .navbar ul li {
+    padding: 10px; /* Adjust padding for content */
+  }
+
+  /* Additional styles for removing white space */
+  body {
+    margin: 0; /* Remove body margin for better content fit */
+  }
+
+  .navbar a {
+    margin-bottom: 10px; /* Add margin for spacing between links */
+  }
+}

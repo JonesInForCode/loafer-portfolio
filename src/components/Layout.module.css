@@ -1,3 +1,7 @@
+.splash {
+  background-color: #232323;
+}
+
 .siteWrapper {
   padding-top: 80px;
   min-height: calc(100vh);
@@ -19,4 +23,35 @@
 
 .pageFooterContent {
   padding: 0 1.1rem;
+}
+
+.homepageModalContent {
+  position: fixed;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #232323;
+  padding: 2rem;
+  box-shadow: 1px 2px 20px #fff;
+  border-radius: 10px;
+
+  /* Centering adjustments */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 719px) {
+  .homepageModalContent {
+    padding: 1.5rem;
+    width: 90%;
+  }
+}
+
+.homepageModalContent > button {
+  width: 75px;
+  padding: 15px 20px;
+  font-weight: 800;
 }

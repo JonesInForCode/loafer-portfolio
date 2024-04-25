@@ -36,9 +36,11 @@ h6 {
     justify-content: center;
     align-items: center;
     background-color: #232323;
-    color: #c5c2c2;
+    color: #e7e7e7;
     border-radius: 5px;
     padding: 25px;
+    font-family: "Roboto";
+    font-weight: 200;
 }
 .homeArticle {
   max-width: 300px;
@@ -86,4 +88,34 @@ h6 {
   border-radius: 50%;
   width: 75%;
 
+}
+
+/* Media query for screens below 720p */
+@media only screen and (max-width: 719px) {
+  /* Styles for smaller screens */
+
+  .homeCardMain,
+  .centerSection {
+    flex-direction: column; /* Change to single column layout */
+    align-items: center; /* Center items vertically */
+  }
+
+  .homeArticle,
+  .aboutSnip {
+    width: 100%; /* Make elements take up full width */
+    margin: 1rem auto; /* Center elements horizontally */
+  }
+
+  .centerSection {
+    padding: 2rem; /* Adjust padding for single column */
+  }
+
+  .centerSection > h1 {
+    font-size: 2rem; /* Adjust heading size */
+  }
+
+  .avatar {
+    width: 100%; /* Make avatar take full width */
+    margin-bottom: 1rem; /* Add margin for spacing */
+  }
 }
