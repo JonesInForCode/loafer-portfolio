@@ -30,13 +30,17 @@ export default function Projects() {
               color: "#fff",
               borderRadius: "5px",
               padding: "1.5em",
+              display: "flex",
+              flexDirection: "column",
             }}
           >
-            <img src={projects[projectId].img} />
-            <p>{projects[projectId].desc}</p>
-            <p>
-              URL:<a href={projects[projectId].url}> Live Site</a>
-            </p>
+            <img style={{ maxWidth: "100%" }} src={projects[projectId].img} />
+            <div style={{ flexGrow: "1" }}>
+              <p>{projects[projectId].desc}</p>
+              <p>
+                URL:<a href={projects[projectId].url}> Live Site</a>
+              </p>
+            </div>
           </div>
         ))}
       </div>
