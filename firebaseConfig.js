@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDbDOEjx--5Wdsrlp7HnaSTV1rYo5TeAlo",
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "loafer-portfolio.firebaseapp.com",
   projectId: "loafer-portfolio",
   storageBucket: "loafer-portfolio.appspot.com",

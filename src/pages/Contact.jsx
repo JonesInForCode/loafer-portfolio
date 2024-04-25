@@ -14,7 +14,7 @@ export default function Contact() {
               themightyloafer.self098@passinbox.com
             </a>
           </li>
-          <li>Github</li>
+          <li><a href="https://www.linkedin.com/in/nicolas-jones-0930b6177/">Github</a></li>
           <li>Dev.to</li>
         </ul>
       </section>
