@@ -36,32 +36,13 @@ h6 {
 }
 /* Home Page */
 .homeWrapper {
-  max-width: 1380px;
+  max-width: 1440px;
   box-shadow: -2px 2px 5px #434141;
   border-radius: 10px;
   margin: 0 auto; /* Center horizontally by default */
 }
 
-/* Media query for screens wider than 1380px */
-@media only screen and (min-width: 1440px) {
-  .homeWrapper {
-    margin: auto; /* Maintain centering */
-    max-width: 90vw;
-    min-height: calc(90vh);
-    font-size: 1.5em;
-    line-height: 1.5em;
-  }
-  .homeArticle {
-    min-width: calc(20vw);
-  }
-  .centerSection {
-    max-width: 65vw;
-    min-height: calc(70vh);
-  }
-  .aboutSnip {
-    min-width: calc(20vw);
-  }
-}
+
 .homeCardMain {
     display: flex;
     justify-content: space-between;
@@ -118,32 +99,77 @@ h6 {
   width: 75%;
 }
 
-/* Media query for screens below 720p */
-@media only screen and (max-width: 719px) {
-  /* Styles for smaller screens */
-
+@media (max-width: 767px) {
+  /* Styles for screens with a maximum width of 767px */
   .homeCardMain,
-  .centerSection {
-    flex-direction: column; /* Change to single column layout */
-    align-items: center; /* Center items vertically */
+  .centerSection,
+  .aboutSnip {
+    flex-direction: column; /* Change flex-direction to column */
+    max-width: 100%; /* Make sure the containers take full width */
+    padding: 1rem; /* Adjust padding as needed */
+  }
+
+  .homeArticle {
+    max-width: 100%; /* Make sure the article takes full width */
+  }
+
+  .aboutSnip {
+    margin: 1rem auto 0; /* Center the aboutSnip horizontally */
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .homeCardMain {
+    flex-direction: column; /* Stack the main card elements vertically */
+    align-items: center; /* Center the child elements horizontally */
   }
 
   .homeArticle,
+  .centerSection,
   .aboutSnip {
-    width: 100%; /* Make elements take up full width */
-    margin: 1rem auto; /* Center elements horizontally */
+    max-width: 80%; /* Adjust the maximum width as desired */
+    margin-bottom: 1rem; /* Add some spacing between the elements */
   }
 
   .centerSection {
-    padding: 2rem; /* Adjust padding for single column */
+    padding: 1rem; /* Reduce the padding for smaller screens */
+  }
+}
+@media only screen and (min-width: 1520px) {
+  .homeWrapper {
+    max-width: 95vw; /* Adjust this value as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 1rem; /* Add some padding */
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  .homeCardMain {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+  }
+  .homeArticle {
+    grid-column: 1 / 2;
+  }
+  .centerSection {
+    grid-column: 2 / 3;
+  }
+  .centerSection > h1 {
+    font-size: 3rem;
+  }
+  .aboutSnip {
+    grid-column: 3 / 4;
+  }
+}
+@media only screen and (min-width: 2280px) {
+  .homeWrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 1.2rem; /* Adjust the base font size */
+    line-height: 1.6; /* Adjust the line height for better readability */
   }
 
   .centerSection > h1 {
-    font-size: 2rem; /* Adjust heading size */
+    font-size: 3.5rem; /* Adjust the main heading size */
   }
 
-  .avatar {
-    width: 100%; /* Make avatar take full width */
-    margin-bottom: 1rem; /* Add margin for spacing */
-  }
 }
