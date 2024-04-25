@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Layout.module.css'
 
-const HomepageModal = ({ children, isOpen, onClose }) => {
+const Modal = ({ children, isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
@@ -14,4 +14,4 @@ const HomepageModal = ({ children, isOpen, onClose }) => {
   );
 };
 
-export default HomepageModal;
+export default Modal;

@@ -35,19 +35,46 @@ h6 {
     padding: 25px;
 }
 /* Home Page */
+.homeWrapper {
+  max-width: 1380px;
+  box-shadow: -2px 2px 5px #434141;
+  border-radius: 10px;
+  margin: 0 auto; /* Center horizontally by default */
+}
+
+/* Media query for screens wider than 1380px */
+@media only screen and (min-width: 1440px) {
+  .homeWrapper {
+    margin: auto; /* Maintain centering */
+    max-width: 90vw;
+    min-height: calc(90vh);
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  .homeArticle {
+    min-width: calc(20vw);
+  }
+  .centerSection {
+    max-width: 65vw;
+    min-height: calc(70vh);
+  }
+  .aboutSnip {
+    min-width: calc(20vw);
+  }
+}
 .homeCardMain {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #323635;
     color: #e7e7e7;
     border-radius: 5px;
-    padding: 25px;
+    padding: 1.5rem;
     font-family: "Roboto";
     font-weight: 200;
 }
 .homeArticle {
-  max-width: 300px;
+  max-width: 20vw; /* Adjust based on desired width */
   line-height: 1.2em;
   margin: 0 auto;
   background-color: #434141;
@@ -57,12 +84,11 @@ h6 {
 
 .centerSection {
   flex-grow: 1;
-  padding: 0 5rem;
+  padding: 2rem 5%; /* Use percentages for padding */
   background-color: #3c3b3b;
-  max-width: 40rem;
-  margin-left: 30px;
+  max-width: 50vw; /* Use viewport unit for max-width */
+  margin: 0 auto; /* Center horizontally */
   font-size: larger;
-  line-height: 1.5rem;
   border-radius: 8px;
 }
 
@@ -73,7 +99,7 @@ h6 {
 /* About Sniplet */
 .aboutSnip {
   background-color: #434141;
-  width: 15rem;
+  width: 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,7 +116,6 @@ h6 {
 .avatar {
   border-radius: 50%;
   width: 75%;
-
 }
 
 /* Media query for screens below 720p */
