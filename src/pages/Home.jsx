@@ -4,9 +4,9 @@ import AboutSniplet from "../components/AboutSniplet";
 
 export default function Home() {
   return (
-    <div className={styles.homeCardMain}>
+    <div className={`${styles.homeCardMain} ${styles.article}`}>
       <section>
-        <h2>This area is under construction</h2>
+        <h2>This site is under construction</h2>
         <section className={styles.homeArticle}>
           <article>
             This site is to serve as the hub for all my completed projects. It
@@ -25,7 +25,7 @@ export default function Home() {
           </section>
         </section>
       </section>
-      <section className={styles.centerSection}>
+      <section className={`${styles.centerSection} ${styles.article}`}>
         <h1>Welcome!</h1>
         <p>
           I'm Nick Jones, Frontend Developer and aspiring Full Stack Engineer. I
@@ -42,7 +42,7 @@ export default function Home() {
           library.
         </p>
       </section>
-      <section className={styles.aboutSnip}>
+      <section className={`${styles.aboutSnip} ${styles.article}`}>
         <AboutSniplet />
       </section>
     </div>

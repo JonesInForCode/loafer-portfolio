@@ -9,6 +9,20 @@ export default function Layout() {
   const [showModal, setShowModal] = React.useState(false);
   const [showPage, setShowPage] = React.useState(true);
 
+  const useWindowSize = () => {
+    const [screenWidth, setScreenWidth] = React.useState(window.innerWidth);
+
+    React.useEffect(() => {
+      const handleResize = () => setScreenWidth(window.innerWidth);
+      window.addEventListener('resize', handleResize);
+
+      return () => window.removeEventListener('resize', handleResize);
+    }, [])
+    return screenWidth;
+  }
+
+  const screenWidth = useWindowSize();
+
   const isHomePage = window.location.pathname === "/";
 
   React.useEffect(() => {
@@ -30,6 +44,7 @@ export default function Layout() {
           This website is best viewed on desktops with screen sizes of 720
           pixels and above. You may run into layout issues if your screen size is below 720 pixels.
         </p>
+        <p>Your screen size is: {screenWidth} pixels </p>
       </HomepageModal>
       {showPage && (<div>
         <div className={styles.siteWrapper}>

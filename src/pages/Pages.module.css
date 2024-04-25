@@ -23,6 +23,10 @@ h6 {
   color: #c5c2c2;
 }
 
+.article {
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
 /* Contact Page */
 .contactCard {
     background-color: #232323;
@@ -35,7 +39,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #232323;
+    background-color: #323635;
     color: #e7e7e7;
     border-radius: 5px;
     padding: 25px;
@@ -55,7 +59,7 @@ h6 {
   flex-grow: 1;
   padding: 0 5rem;
   background-color: #3c3b3b;
-  max-width: 50rem;
+  max-width: 40rem;
   margin-left: 30px;
   font-size: larger;
   line-height: 1.5rem;
@@ -69,7 +73,6 @@ h6 {
 /* About Sniplet */
 .aboutSnip {
   background-color: #434141;
-  box-shadow: 1px 2px 2px #232323;
   width: 15rem;
   display: flex;
   flex-direction: column;
