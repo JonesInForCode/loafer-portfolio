@@ -3,16 +3,14 @@
   background: #f0dbc3;
   justify-content: center;
   align-items: center;
-  padding: 25px;
-  margin-bottom: 0;
+  padding: 1em;
+  margin-bottom: 0.5em;
   box-shadow: 1px 1px 5px 2px #b4b497;
-  position: fixed;
   letter-spacing: 1px;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
-  height: 80px;
 }
 
 .homelink {
@@ -32,6 +30,59 @@
 .navbar a {
   color: #232323;
   font-weight: 800;
+}
+
+/* Hamburger icon styles */
+.hamburgerIcon {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+}
+
+.hamburgerIcon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #333;
+}
+
+.open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+  background: #f0dbc3; 
+}
+
+.open ul {
+  flex-direction: column;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.open ul li {
+  padding: 10px;
+}
+
+.open a {
+  margin-bottom: 10px;
+}
+
+.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 /* Media query for screens below 500px */
@@ -62,5 +113,21 @@
 
   .navbar a {
     margin-bottom: 10px; /* Add margin for spacing between links */
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar.open {
+    display: flex;
+  }
+
+  .hamburgerIcon {
+    display: block;
   }
 }
