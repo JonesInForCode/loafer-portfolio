@@ -1,6 +1,6 @@
 # Loafer Portfolio Homepage
 
-This is the Homepage for Nicolas Jones, Frontend Developer, A.K.A: "TheMightyLoafer". All finished projects and WIP's will be posted here.
+This is the Homepage for Nicolas Jones, Frontend Developer, A.K.A: "JonesinForCode". All finished projects and WIP's will be posted here.
 
 ## Acknowledgements
 
@@ -12,15 +12,15 @@ This is the Homepage for Nicolas Jones, Frontend Developer, A.K.A: "TheMightyLoa
 
 ## Author
 
-- [@TheMightyLoafer](https://www.github.com/TheMightyLoafer)
+- [@JonesInForCode](https://www.github.com/JonesInForCode)
 
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Light/dark mode toggle (WIP)
+- Live previews (WIP)
+- Fullscreen mode (75%)
+- Cross platform (75%)
 
 
 ## Feedback
