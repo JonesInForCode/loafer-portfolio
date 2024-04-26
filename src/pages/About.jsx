@@ -6,7 +6,7 @@ export default function About() {
     <div className={styles.aboutPage}>
       <h1 className={styles.aboutHeader}>About Me</h1>
       <div className={styles.aboutContent}>
-        <img src="/public/images/jonesinforcodeabtpg.jpg"/>
+        <img src="/images/jonesinforcodeabtpg.jpg"/>
         <h2>Hi, I'm Nick Jones</h2>
         <h3>Frontend Software Developer</h3>
         <h3>React| JavaScript| HTML| CSS</h3>
