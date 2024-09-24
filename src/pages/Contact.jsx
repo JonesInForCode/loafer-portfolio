@@ -5,9 +5,8 @@ export default function Contact() {
   return (
     <React.Fragment>
       <div className={styles.contactCard}>
-        <h1 className={styles.contactHeader}>Contact me</h1>
-        <h2>This area is under construction</h2>
-        <h3>Contact Informaion</h3>
+        <h1 className={styles.contactHeader}>Contact Me</h1>
+        <h3>Contact Information</h3>
         <section>
           <ul>
             <li>
@@ -25,7 +24,6 @@ export default function Contact() {
             </li>
           </ul>
         </section>
-        <p>This is the contact page of my website.</p>
       </div>
       <div className={styles.contactForm}></div>
     </React.Fragment>
