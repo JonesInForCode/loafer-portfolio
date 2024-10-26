@@ -44,12 +44,3 @@ I'm a Frontend Developer, and the rest of this is under construction
 Javascript, HTML, CSS...
 
 
-## Lessons Learned
-
-What did you learn while building this project? What challenges did you face and how did you overcome them?
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
