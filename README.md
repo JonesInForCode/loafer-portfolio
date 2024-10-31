@@ -1,6 +1,10 @@
 # Loafer Portfolio Homepage
 
+### Currently backlogged. Definitely needs a redesign ###
+
 This is the Homepage for Nicolas Jones, Frontend Developer, A.K.A: "JonesinForCode". All finished projects and WIP's will be posted here.
+
+www.jonesinforcode.dev/
 
 ## Acknowledgements
 
